@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Aluno</title>
+</head>
+<body background="WallpaperRosa.webp"> <font face="Candara">
+
+    <table align="center" style="margin-top:50px" bgcolor="pink" width="90%">
+
+        <tr>
+            <td align="left" >
+                <div style="font-size:50px;margin-top: 20px;margin-bottom: 20px;margin-left:25px">Cadastro Aluno</div>
+            </td>
+            <td align="right">
+                <a href="inicio.html">
+                    <img src="Banana.webp" width="50px" style="margin-right:10px">
+                </a>
+                <a href="CadastroProfessor.html">
+                    <img src="coco.png" width="50px" style="margin-right:10px">
+                </a>
+                <a href="CadastroAluno.html">
+                    <img src="semente.png" width="50px" style="margin-right:10px">
+                </a>
+                <br> Inicio &nbsp; Professor &nbsp; Aluno &ensp;&ensp;
+            </td>
+        </tr>
+
+    </table>
+    
+
+
+    <table border="15" bordercolor="pink" align="center" bgcolor="pink" style="margin-top:100px;" width="45%">
+        <tr >
+            
+            <td>
+                <label> <div style="margin-top:50px"></div>Nome: </label>
+            </td>
+            <td>
+                <div style="margin-top:50px"></div> <input type="text" name="nome" value="" size="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label> Endereço: </label>
+            </td>
+            <td>
+                <input type="text" name="endereco" value="" size="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label> Telefone: </label>
+            </td>
+            <td>
+                <input type="text" name="telefone" value="" size="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label> Cidade: </label>
+            </td>
+            <td>
+                <input type="text" name="cidade" value="" size="40">
+            </td>
+        </tr>
+        <tr>
+            <td><label>Estado </label></td>
+            <td><select name="estado" id="estados">
+                    <option values="ac">Acre</option>
+                    <option values="al">Alagoas</option>
+                    <option values="ap">Amapá</option>
+                    <option values="am">Amazonas</option>
+                    <option values="ba">Bahia</option>
+                    <option values="ce">Ceará</option>
+                    <option values="df">Distrito-federal</option>
+                    <option values="es">Espirito Santo</option>
+                    <option values="go">Goiás</option>
+                    <option values="ma">Maranhão</option>
+                    <option values="mt">Mato Grosso</option>
+                    <option values="ms">Mato Grosso do Sul</option>
+                    <option values="mg">Minas Gerais</option>
+                    <option values="pa">Pará</option>
+                    <option values="pb">Paraíba</option>
+                    <option values="pr">Paraná</option>
+                    <option values="pe">Pernambuco</option>
+                    <option values="pi">Piauí</option>
+                    <option values="rj">Rio de Janeiro</option>
+                    <option values="rn">Rio Grande do Norte</option>
+                    <option values="rs">Rio Grande do Sul</option>
+                    <option values="ro">Rondônia</option>
+                    <option values="rr">Roraima</option>
+                    <option values="sc">Santa Catarina</option>
+                    <option values="sp">São Paulo</option>
+                    <option values="se">Sergipe</option>
+                    <option values="to">Tocantins</option>	
+                
+            </select> </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label> CPF: </label>
+            </td>
+            <td>
+                <input type="text" name="cpf" value="" size="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label> RG: </label>
+            </td>
+            <td>
+                <input type="text" name="rg" value="" size="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label> E-mail: </label>
+            </td>
+            <td>
+                <input type="text" name="email" value="" size="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label> Sexo: </label>
+            </td>
+            <td>
+                <input type="radio" name="sexo" id="m" value="m">
+                <label>Masculino</label>
+                <input type="radio" name="sexo" id="f" value="f">
+                <label>Feminino</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Curso</label>
+            </td>
+            <td>
+                <input type="text" name="curso" value="" size="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Nivel:</label>
+                <div style="margin-top:50px"></div>
+            </td>
+            <td>
+                <input type="checkbox" name="nivel" id="graduacao" values="graduacao">
+                <label>Graduação</label>
+                <input type="checkbox" name="nivel" id="especializacao" values="especializacao">
+                <label>Especialização</label>
+                <input type="checkbox" name="nivel" id="mestrado" values="mestrado">
+                <label>Mestrado</label>
+                <input type="checkbox" name="nivel" id="doutorado" values="doutorado">
+                <label>Doutorado</label>
+                <input type="checkbox" name="nivel" id="posDoutorado" values="posDoutorado">
+                <label>Pos-Doutorado</label>
+               <div style="margin-top:50px"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" name="enviar" value="Enviar">
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>

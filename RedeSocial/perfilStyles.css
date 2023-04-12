@@ -1,0 +1,51 @@
+
+.perfilContainer{
+    position: relative;
+    border: 1px solid black;
+    height: 50vh;
+    border-radius: 25px;
+    margin: 0 0 0 0;
+    align-self: center;
+    width: 90%;
+}
+
+.cabecaPerfil{
+    background-image: url(Banner.jpg);
+    width: 100%;
+    height: 25vh;
+    border-radius: 25px;
+    padding-top: 18vh;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.cabecaPerfil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+}
+
+.perfilTexto{
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+#editarPerfil{
+    float:right;
+    display: inline-flex;
+    border-radius: 25px;
+    background-color: greenyellow;
+    width:150px;
+    height: 50px;
+    margin-right: 25px;
+    align-items: center;
+    padding-left: 20px;
+    transition-duration: 0.2s;
+}
+
+#editarPerfil:hover{
+    cursor: pointer;
+    background-color: rgb(158, 236, 41);
+}

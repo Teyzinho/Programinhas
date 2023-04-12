@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(9, 9, 49);
+    background-color: rgb(27, 38, 44);
+}
+
+.menu{
+    display: inline-flex;
+    margin-top:5px;
+    width:100%;
+    height:100px;
+}
+
+.logo h1{
+    color:white;
+    padding: 0;
+    margin:0;
+    padding-top:20px;
+}
+
+.logo h2{
+    color:white;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.logo img{
+    float:left;
+    width: auto;
+    height:100px;
+}
+
+.logo{
+    margin-left: 10px;
+    width:10%;
+    height:100px;
+    transition-duration: 0.3s;
+}
+
+.logo:hover{
+    transform:scale(1.1);
+}
+
+.banner{
+    width: 75%;
+    margin-left: 10%;
+    margin-top:2%;
+}
+
+
+
+
+.content{
+    display: inline-flex;
+    position: relative;
+    gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.skin{
+    overflow: hidden;
+    transition-duration: 0.5s;
+    width:20%;
+    height: 500px;
+    background-image: linear-gradient(30deg, rgb(45, 64, 74) 77%, rgb(42, 90, 115) 88%, rgb(84, 161, 201) 101%);
+}
+
+.skin img{
+    margin-left: 5%;
+    width:90%;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+
+.skin:hover{
+    width: 22%;
+    animation-name: ze;
+}
+
+
+.skin p{
+    color:white;
+    margin-top: 0;
+    margin-left:10%;
+    padding: 0;
+}
+
+.preco{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.Nome{
+    font-weight: 50px;
+    font-size: 20px;
+}
+
+.barra {
+    margin-left: 10%;
+    width: 80%;
+    min-height: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(186, 255, 174), rgb(155, 255, 139), rgb(250, 255, 0), rgb(255, 165, 81), rgb(250, 95, 95));
+}
+

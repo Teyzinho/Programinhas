@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Document</title>
+</head>
+<body bgcolor="Teal"> <font face="Candara">
+    <form>
+    
+        <table border="0" align="center" style="margin-top:50px" bgcolor="white">
+            <tr>
+                <td>
+                    <h1>Formulário</h1>
+                </td>
+                <td>
+                    <img src="Macaco.webp" width="100px" align="right" style="margin-right:10px">
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2"><label>Dados Pessoais</label></td>
+            </tr>
+            <tr>
+                <td><label>Nome :</label></td>
+                <td><input type="text" name="nome" value="" size="25"> </td>
+            </tr>
+            <tr>
+                <td><label>Endereço :</label></td>
+                <td><input type="text" name="endereço" value="" size="25"> </td>
+            </tr>
+            <tr>
+                <td><label>Cidade :</label></td>
+                <td><input type="text" name="cidade" value="" size="25"> </td>
+            </tr>
+            <tr>
+                <td><label>Estado </label></td>
+                <td><select name="estado" id="estados">
+                        <option values="ac">Acre</option>
+						<option values="al">Alagoas</option>
+						<option values="ap">Amapá</option>
+						<option values="am">Amazonas</option>
+						<option values="ba">Bahia</option>
+						<option values="ce">Ceará</option>
+						<option values="df">Distrito-federal</option>
+						<option values="es">Espirito Santo</option>
+						<option values="go">Goiás</option>
+						<option values="ma">Maranhão</option>
+						<option values="mt">Mato Grosso</option>
+						<option values="ms">Mato Grosso do Sul</option>
+						<option values="mg">Minas Gerais</option>
+						<option values="pa">Pará</option>
+						<option values="pb">Paraíba</option>
+						<option values="pr">Paraná</option>
+						<option values="pe">Pernambuco</option>
+						<option values="pi">Piauí</option>
+						<option values="rj">Rio de Janeiro</option>
+						<option values="rn">Rio Grande do Norte</option>
+						<option values="rs">Rio Grande do Sul</option>
+						<option values="ro">Rondônia</option>
+						<option values="rr">Roraima</option>
+						<option values="sc">Santa Catarina</option>
+						<option values="sp">São Paulo</option>
+						<option values="se">Sergipe</option>
+						<option values="to">Tocantins</option>	
+                    
+                </select> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> <hr> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label>Dados Profissionais</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label><br>Natureza do Cargo</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="cargo" id="ge" value="gerencia">
+                    <label>Gerência</label>
+                    <input type="radio" name="cargo" id="fi" value="financeiro">
+                    <label>Financeiro</label>
+                    <input type="radio" name="cargo" id="re" value="recepcao">
+                    <label>Recepção</label>
+                    <input type="radio" name="cargo" id="adm" value="administrativo">
+                    <label>Administrativo</label>
+                    <input type="radio" name="cargo" id="jur" value="juridico">
+                    <label>Jurídico</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><label><br>Área de interesse</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"> 
+                    <input type="checkbox" name="interesse" id="interesse" values="computacao">
+                    <label>Computação</label>
+                    <input type="checkbox" name="interesse" id="interesse" values="biologia">
+                    <label>Biologia</label>
+                    <input type="checkbox" name="interesse" id="interesse" values="meioAmbiente">
+                    <label>Meio Ambiente</label>
+                    <input type="checkbox" name="interesse" id="interesse" values="engenharia">
+                    <label>Engenharia</label>
+                    <input type="checkbox" name="interesse" id="interesse" values="historia">
+                    <label>História</label>
+                </td>
+            </tr>
+                <tr>
+                    <td ><label>Mini-curriculo</label></td>
+                    <td><textarea cols="50" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <hr> </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="enviar" value="Enviar" size="50">
+                    </td>
+                </tr>
+        </table>
+    </form>
+</font>
+</body>
+</html>

@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.menu{
+    background-color: rgb(41, 37, 37);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menuLogo{
+    display: flex;
+}
+
+#menuLogo h1{
+    color: white;
+    font-size: 20px;
+}
+
+#menuAbas{
+    width:45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aba{
+    background-color: cornflowerblue;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aba a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+ 
+#menuImg{
+    background-image: url(imagens/wallpaper3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:-5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 300px;
+    
+    margin: 0;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#menuImg div{
+    margin-left: 250px;
+}
+
+#menuImg div h1{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#menuImg div p{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+.candidatosContainer{
+    display: grid;
+    margin-right: 100px;
+    margin-left: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 225px 225px 225px;
+    gap: 15px 25px;
+    
+}
+
+.candidatos{
+    background-color:#32de84;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.candidatos:hover{
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.644);
+}
+
+.imagem{
+    object-fit: cover;
+    width:125px;
+    height:200px;
+    border: 2px black solid;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.imagem img{
+    width:125px;
+    height:200px;
+    border-radius: 10px;
+}
+
+.texto{
+    margin-left: 10px;
+    width:650px;
+    height: 200px;
+    color: white;
+}
+
+.texto h1{
+    color: #034694;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.texto h2{
+    color: #034694;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.texto p{
+    color: white;
+    padding: 0;
+    padding-top: 25px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.votar{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #034694;
+    color: white;
+}
+
+.votar:hover{
+    cursor: pointer;
+}

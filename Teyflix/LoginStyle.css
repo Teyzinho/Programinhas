@@ -1,0 +1,92 @@
+body{
+    background-image: url(Imgs/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#loginbox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.658);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logincontainer{
+    width: 75%;
+}
+#loginbox h1{
+    padding-top: 25px;
+    
+}
+
+#loginbox label{
+    
+}
+
+#label2{
+    margin-top: 50px;
+    
+}
+
+.digitar{
+
+    margin-bottom: 25px;
+    width: 100%;
+    height: 40px;
+
+    background: #333;
+    border-style: none;
+    border-bottom: 2px red solid;
+    border-radius: 5px;
+}
+
+.digitar2{
+    width: 100%;
+    height: 40px;
+
+    background: #333;
+    border-style: none;
+    border-bottom: 2px red solid;
+    border-radius: 5px;
+}
+
+#enviar{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#enviar:hover{
+    cursor: pointer;
+}
+
+#enviar h1{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    float:right;
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: underline;
+}
